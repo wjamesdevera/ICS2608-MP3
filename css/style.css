@@ -127,3 +127,9 @@ table {
 }
 
 /* ADD YOUR STYLE HERE */
+:root {
+  --orange: #FF9519;
+  --white: #ffffff;
+  --black: #000000;
+}
+
