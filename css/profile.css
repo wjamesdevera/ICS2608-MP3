@@ -1,0 +1,62 @@
+.profile-cover {
+    position: relative; 
+    width: 90%; 
+    height: 350px; 
+    overflow: hidden;
+    background-image: url('../assets/profile_cover photo.png');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+}
+
+.profile-picture {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-image: url('../assets/win.png');
+  background-size: cover;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  .profile-card {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .profile-title {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+
+  .profile-info {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .profile-followers {
+    font-size: 18px;
+    font-weight: bold;
+  }
