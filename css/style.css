@@ -136,7 +136,8 @@ a {
 :root {
   --orange: #ff9519;
   --white: #ffffff;
-  --light-gray: #d3d3d3;
+  --light-gray: #a3a3a3;
+  --light-dark-gray: #737373;
   --dirty-white: #f5f5f5;
   --black: #000000;
   --font: "Manrope", sans-serif;
