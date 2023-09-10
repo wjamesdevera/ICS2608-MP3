@@ -1,5 +1,6 @@
 /* Import Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 /* CSS RESET */
 html,
 body,
@@ -135,9 +136,12 @@ a {
 :root {
   --orange: #ff9519;
   --white: #ffffff;
-  --light-gray: #d3d3d3;
+  --light-gray: #a3a3a3;
+  --light-dark-gray: #737373;
+  --dirty-white: #f5f5f5;
   --black: #000000;
   --font: "Manrope", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
 }
 
 body {
@@ -149,6 +153,10 @@ body {
 main {
   display: flex;
   width: 100%;
+}
+
+main > * {
+  flex-basis: 100%;
 }
 
 .nav-logo {
@@ -192,7 +200,7 @@ main {
 }
 
 .nav-links > *:hover {
-  background-color: #f5f5f5;
+  background-color: var(--dirty-white);
   border-radius: 1rem;
   color: var(--orange);
 }
@@ -203,5 +211,5 @@ main {
 }
 
 .main-feed {
-  width: 100%;
+  min-width: 50%;
 }
