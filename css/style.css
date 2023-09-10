@@ -199,17 +199,26 @@ main {
 
 .home-banner {
   width: 100%;
+  z-index: 10;
 }
 
-.news-feed {
-  width: 50%;
+.main-feed {
+  width: 100%;
 }
+
+/* STYLES FOR HOME PAGE */
 
 .left-sidebar {
   position: sticky;
   top: 0;
-  right: 0;
   width: 30%;
   height: 100vh;
+  /* right: 0; */
   background-color: pink;
+  padding: 1.5rem 2rem;
+}
+
+.search-bar {
+  width: 100%;
+  border-radius: 2rem;
 }
