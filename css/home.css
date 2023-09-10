@@ -3,7 +3,7 @@
 .left-sidebar {
   position: sticky;
   top: 0;
-  width: 40%;
+  min-width: 25%;
   height: 100vh;
   background-color: white;
   padding: 0.5rem 1.25rem;
