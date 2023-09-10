@@ -142,10 +142,13 @@ a {
 
 body {
   font-family: var(--font);
+  display: flex;
+  flex-direction: column;
 }
 
 main {
   display: flex;
+  width: 100%;
 }
 
 .nav-logo {
@@ -153,12 +156,13 @@ main {
 }
 
 .navbar {
-  position: fixed;
+  position: sticky;
   display: flex;
+  top: 0;
   flex-direction: column;
   align-items: center;
   max-width: 15%;
-  height: 100%;
+  height: 100vh;
   padding-top: 1rem;
   overflow: auto;
   background-color: var(--white);
@@ -199,9 +203,13 @@ main {
 
 .news-feed {
   width: 50%;
-  margin-left: 15%;
 }
 
-.left-side-bar {
-  position: fixed;
+.left-sidebar {
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100vh;
+  background-color: pink;
 }
