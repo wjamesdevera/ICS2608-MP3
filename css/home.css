@@ -3,15 +3,51 @@
 .left-sidebar {
   position: sticky;
   top: 0;
-  width: 30%;
+  width: 40%;
   height: 100vh;
   background-color: white;
-  padding: 1.5rem 2rem;
+  padding: 1.25rem 1.75rem;
   border-left: 3px solid var(--light-gray);
 }
 
 .search-bar {
-  width: 100%;
   border-radius: 1rem;
-  padding: .5rem 1rem;
+  border: 2px solid var(--light-gray);
+  display: flex;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: .25rem .5rem .25rem .25rem;
+  overflow: hidden;
 }
+
+.search-bar input {
+    flex: 1;
+    outline: 0;
+    font-size: inherit;
+    border: none;
+}
+
+.search-bar button {
+    color: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.search-bar button > * {
+    width: 1.25rem;
+}
+
+
+.search-bar:focus-within {
+    color: var(--orange);
+    border: 2px solid var(--orange);
+}
+
+/* .search-bar > * {
+    font-size: inherit;
+    border: none;
+    background-color: transparent;
+    outline: none;
+} */
+
