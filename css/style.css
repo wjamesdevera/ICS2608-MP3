@@ -166,7 +166,7 @@ main {
   padding-top: 1rem;
   overflow: auto;
   background-color: var(--white);
-  border-right: 2px solid var(--light-gray);
+  border-right: 3px solid var(--light-gray);
 }
 
 .nav-links {
@@ -205,4 +205,3 @@ main {
 .main-feed {
   width: 100%;
 }
-
