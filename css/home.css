@@ -5,9 +5,9 @@
   top: 0;
   width: 30%;
   height: 100vh;
-  /* right: 0; */
-  background-color: pink;
+  background-color: white;
   padding: 1.5rem 2rem;
+  border-left: 3px solid var(--light-gray);
 }
 
 .search-bar {
