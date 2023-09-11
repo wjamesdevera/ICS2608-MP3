@@ -1,100 +1,70 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+.cover-photo {
+  width: 100%;
+  overflow: hidden;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.profile-container {  
-    margin: 20px auto;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.header {
-    background-color: royalblue;
-    height: 140px;
-    width: 1100px;
-}
-
-.header h1 {
-    font-size: 24px;
+.cover-photo img {
+  width: 100%;
+  height: auto;
 }
 
 .profile-info {
-    padding: 20px;
-    text-align: center;
+  padding: 1.25rem 5rem;
+  border-bottom: 2px solid var(--light-gray);
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: -8%;
+  margin-bottom: 1rem;
+}
+
+.profile-section button {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 1.5rem;
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.profile-section button:hover {
+  border: 2px solid var(--orange);
+  color: var(--orange);
 }
 
 .profile-image {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-    border-radius: 50%;
-    width: 100px;
-    border: 8px solid white;
-    height: 100px
-    
-}
-
-.profile-banner{
-    width: 500px;
-    height: 200px;
-    border-radius: 5%;
-    border: 2px solid white;
+  border-radius: 50%;
+  width: 10%;
+  border: 5px solid white;
 }
 
 .username {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
-    position: absolute;
-    left: 300px;
-    bottom: 280px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 700;
 }
 
-.bio {
-    font-size: 16px;
-    margin-top: 10px;
-    position: absolute;
-    left: 300px;
-    bottom: 260px;
+.info-tags {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  font-size: 0.857rem;
+  line-height: 1.25rem;
+  margin: 0.5rem 0;
 }
 
-.birthday{
-    font-size: 15px;
-    margin-top: 10px;
-    position: absolute;
-    left: 300px;
-    bottom:240px;
+.info-tags > * {
+  margin-right: 0.5rem;
 }
 
-.bio2{
-    font-size: 15px;
-    margin-top: 10px;
-    position: absolute;
-    left: 300px;
-    bottom:220px;
-}
-
-.button{
-    border: 2px solid black;
-    padding: 10px 20px; 
-    font-size: 16px;
-    border-radius: 25px;
-    position: absolute;
-    left: 950px;
-    bottom: 270px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: white;
-}
-
-.followers{
-    font-size: 15px;
-    color: gray;
-    margin-top: 10px;
-    position: absolute;
-    left: 300px;
-    bottom:200px;  
+.followers {
+  font-size: 0.875rem;
+  line-height: 1rem;
 }

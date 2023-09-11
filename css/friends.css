@@ -7,9 +7,48 @@
   width: 780px;
   flex-direction: column;
   overflow: auto;
-  background-color: var(--light-gray);
+  background-color: var(--gray-white);
+}
+
+.friends-header {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  flex-direction: column;
+  font-family: var(--font);
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.friends-search{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    width: 650px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 5px;
 }
 
 .friends-pic {
+    display: flex;
+    position: relative;
+    top: 135px;
+    left: 55px;
+    margin-top: 1rem;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 90px;
+    width: 90px;
+}
+
+.friends-name {
+    display: flex;
+    position: absolute;
     
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 30;
 }
