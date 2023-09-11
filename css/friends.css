@@ -35,20 +35,37 @@
 .friends-pic {
     display: flex;
     position: relative;
-    top: 135px;
+    flex-direction: row;
+    top: 120px;
     left: 55px;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    row-gap: 20;
     border-radius: 50%;
     object-fit: cover;
     height: 90px;
     width: 90px;
 }
 
-.friends-name {
+.friends-hector {
     display: flex;
+    flex-direction: column;
     position: absolute;
-    
+    top: 165px;
+    left: 155px;
     font-family: var(--font);
     font-weight: bold;
-    font-size: 30;
+    font-size: 23px;
+
+
+}
+
+.friends-mhai {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 290px;
+    left: 155px;
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 23px;
 }
