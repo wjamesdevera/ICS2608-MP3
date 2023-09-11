@@ -1,0 +1,86 @@
+<!--upload part-->
+.title {
+    
+    font-weight: 200;
+    width: 624px;
+    height: 102px;
+    margin-top: 246px;
+    margin-left: 402px;
+}
+
+.captionbox {
+    position: absolute;
+top: 160px;
+left: 280px;
+fill: none; 
+border-radius: 32px;
+stroke:#E1E1E1;
+stroke-width:4;
+}
+
+.uploadbox {
+    position: absolute;
+    top: 370px;
+    left: 280px;
+    border-radius: 32px;
+    stroke: #E1E1E1;
+    stroke-width: 4;
+    fill: none;
+    stroke-dasharray: 4;
+    stroke-dashoffset: 0;
+}
+
+.uploadicon{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 410px;
+    left: 785px;
+}
+
+.max{
+    position: absolute;
+    top: 650px;
+    left: 750px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #909DA5;
+}
+
+.dragdrop {
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #909DA5;
+    top: 500px;
+    left: 712px;
+}
+
+.Browse {
+    position: absolute;
+    top: 580px;
+    left: 715px;
+    background-color: #ffffff;
+    color: #0FC7FF;
+    font-weight: 550;
+    font-size: 1rem;
+    border: 4px solid #0FC7FF;
+    border-radius: 15px;
+    padding: 18px 60px;
+    fill: #ffffff; 
+}
+
+
+.uploadbutton {
+    position: absolute;
+    top: 750px;
+    left: 280px;
+    background-color: #FF9519;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.5rem;
+    border:none;
+    border-radius: 15px;
+    padding: 20px 300px; 
+    fill: #ffffff; 
+}
