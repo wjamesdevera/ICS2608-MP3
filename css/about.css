@@ -5,18 +5,16 @@ body {
     padding: 0;
 }
 
-.profile-container {
-    max-width: 600px;
+.profile-container {  
     margin: 20px auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .header {
-    color: #fff;
-    padding: 10px;
-    height: 100px;
-    text-align: center;
+    background-color: royalblue;
+    height: 140px;
+    width: 1100px;
 }
 
 .header h1 {
@@ -29,12 +27,13 @@ body {
 }
 
 .profile-image {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
     border-radius: 50%;
-    width: 150px;
-    border:8px solid white;
-    float: left;
-    height: 150px;
-    object-fit: cover;
+    width: 100px;
+    border: 8px solid white;
+    height: 100px
     
 }
 
@@ -49,14 +48,53 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+    position: absolute;
+    left: 300px;
+    bottom: 280px;
 }
 
 .bio {
     font-size: 16px;
     margin-top: 10px;
+    position: absolute;
+    left: 300px;
+    bottom: 260px;
 }
 
 .birthday{
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 10px;
+    position: absolute;
+    left: 300px;
+    bottom:240px;
+}
+
+.bio2{
+    font-size: 15px;
+    margin-top: 10px;
+    position: absolute;
+    left: 300px;
+    bottom:220px;
+}
+
+.button{
+    border: 2px solid black;
+    padding: 10px 20px; 
+    font-size: 16px;
+    border-radius: 25px;
+    position: absolute;
+    left: 950px;
+    bottom: 270px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.followers{
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+    position: absolute;
+    left: 300px;
+    bottom:200px;  
 }
