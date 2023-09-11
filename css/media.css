@@ -1,20 +1,23 @@
 /* upload */
 .title {
-    position: absolute;
+    /* position: absolute;
     top: 120px;
-    left: 280px;
+    left: 280px; */
     font-weight: 900;
     font-size:2rem;
-    width: 624px;
-    height: 102px;
+    /* width: 624px;
+    height: 102px; */
+}
+
+.main-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .captionfield {
-    position: absolute;
-    width: 1100px; 
+    width: 100%; 
     height: 170px;
-    top: 160px;
-    left: 280px;
     border: 3px solid #E1E1E1;
     border-radius: 22px;
     stroke: #E1E1E1;
@@ -26,15 +29,23 @@
 }
 
 .uploadbox {
-    position: absolute;
-    width: 1100px; 
+    width: 100%; 
     height: 350px;
-    top: 370px;
-    left: 280px;
     border: 4px dotted #E1E1E1;
     border-radius: 22px;
     stroke: #E1E1E1;
     fill: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type='file'] {
+    margin-right: -10rem;
+    color: transparent;
+    border: none;
 }
 
 .captiontext {
@@ -48,35 +59,23 @@
 }
 
 .uploadicon{
-    position: absolute;
     height: 80px;
     width: 80px;
-    top: 410px;
-    left: 785px;
 }
 
 .max{
-    position: absolute;
-    top: 650px;
-    left: 750px;
     font-size: 0.8rem;
     font-weight: 600;
     color: #909DA5;
 }
 
 .dragdrop {
-    position: absolute;
     font-size: 1.3rem;
     font-weight: 600;
     color: #909DA5;
-    top: 500px;
-    left: 712px;
 }
 
 .Browse {
-    position: absolute;
-    top: 580px;
-    left: 715px;
     background-color: #ffffff;
     color: #FF9519;
     font-weight: 550;
@@ -89,61 +88,45 @@
  
 }
 
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .uploadbutton {
-    position: absolute;
-    top: 750px;
-    left: 280px;
     background-color: #FF9519;
     color: #ffffff;
     font-weight: 800;
     font-size: 1.5rem;
     border:none;
     border-radius: 15px;
-    padding: 20px 500px; 
+    padding: 1.5rem 0;
     fill: #ffffff; 
     cursor: pointer;
-
-}
-
-
-.break {
-    width: 1100px; 
-    position: absolute;
-    top: 850px;
-    left: 280px;
-    border: 2px solid  #E1E1E1; 
 }
 
 
 /* user uploads */
 
 .pic1 {
-    position: absolute;
     width: 288px;
     height: 512px;
-    top: 1000px;
-    left: 280px;
-}
-
-.vidmedia {
-    position: absolute;
-    top: 1000px;
-    left: 690px;
 }
 
 .pic2{
-    position: absolute;
     width: 288px;
     height: 512px;
-    top: 1000px;
-    left: 1100px;
+}
+
+.media-container {
+    border-top: 2px solid  #E1E1E1; 
+    display: flex;
+    justify-content: space-around;
 }
 
 .user_up {
-    position: absolute;
-    top: 920px;
-    left: 280px;
     font-weight: 900;
     font-size:2rem;
     width: 624px;

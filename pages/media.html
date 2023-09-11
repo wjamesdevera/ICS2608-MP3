@@ -24,49 +24,39 @@
       </div>
       <div class="main-feed">
       <!--middle content-->
-      <h1 class="title" >Ready to Share?</h1> 
-      
-      <form action="">
-        <input type="text" class="captionfield" placeholder="Enter your caption...">
-      </form>
-
-      <div class="uploadbox">
-      </div>
-
-    <a href="#">
-      <img src="../assets/uploadicon.svg" alt="" class="uploadicon" />
-    </a>
-
-    <pre class="dragdrop"> Drag & Drop Files Here
-
-                         or
-
-
-    </pre>
-
-    <!--browse button-->
-    <a href="../pages/media.html">
-    <button class="Browse">Browse Files</button>
-    </a>
-    <pre class="max"> Maximum file size: 1GB </pre>
-
-    <!--BIG UPLOAD BUTTON-->
-    <a href=""> <button class="uploadbutton">UPLOAD</button>
-      </a>
-
-      <hr class="break">
-    
-  <!--last, user uploads-->
-  <h1 class="user_up" >Your Uploads</h1> 
-
-  <a href=""> <img class="pic1" src="../assets/pic1.jpg" alt=""> </img> </a>
-
-  <video class="vidmedia" width="288" height="512" controls autoplay muted loop>
-    <source src="../assets/vid2.mp4" type="video/mp4">
-</video>
-
-  <a href=""> <img class="pic2" src="../assets/pic3.jpg" alt=""> </img> </a>
-
+        <div class="" style="width: 80%;">
+          <h1 class="title" >Ready to Share?</h1> 
+          <form action="" class="caption-form">
+            <input type="text" class="captionfield" placeholder="Enter your caption...">
+          </form>
+            <form action="" class="upload-form">
+              <div class="uploadbox">
+                <a href="#">
+                  <img src="../assets/uploadicon.svg" alt="" class="uploadicon" />
+                </a>
+                <h1 class="dragdrop">Drag & Drop Files Here <br>or</h1>
+                <a href="../pages/media.html">
+                  <button class="Browse">Browse Files</button>
+                </a>
+                <p class="max">Maximum file size: 1GB</p>
+              </div>
+              <button type="submit" class="uploadbutton">UPLOAD</button>
+            </form>
+          <h1 class="user_up" >Your Uploads</h1> 
+          <div class="media-container">
+            <div class="">
+              <a href=""> <img class="pic1" src="../assets/pic1.jpg" alt=""> </img> </a>
+            </div>
+            <div class="">
+              <video class="vidmedia" width="288" height="512" controls autoplay muted loop>
+                <source src="../assets/vid2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="">
+              <a href=""> <img class="pic2" src="../assets/pic3.jpg" alt=""> </img> </a>
+            </div>
+          </div>
+        </div>
       </div>
   </main>
   </body>
