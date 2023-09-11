@@ -14,7 +14,8 @@ body {
 
 .header {
     color: #fff;
-    padding: 20px;
+    padding: 10px;
+    height: 100px;
     text-align: center;
 }
 
@@ -30,8 +31,18 @@ body {
 .profile-image {
     border-radius: 50%;
     width: 150px;
+    border:8px solid white;
+    float: left;
     height: 150px;
     object-fit: cover;
+    
+}
+
+.profile-banner{
+    width: 500px;
+    height: 200px;
+    border-radius: 5%;
+    border: 2px solid white;
 }
 
 .username {
