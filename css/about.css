@@ -46,8 +46,8 @@
 }
 
 .username {
-  font-size: 1.25rem;
-  line-height: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
   font-weight: 700;
 }
 
@@ -55,8 +55,8 @@
   display: flex;
   width: 50%;
   flex-wrap: wrap;
-  font-size: 0.857rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.125rem;
   margin: 0.5rem 0;
 }
 
