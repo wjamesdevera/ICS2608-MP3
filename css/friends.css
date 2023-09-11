@@ -81,9 +81,21 @@
 /*-!-!-!-YOUR FRIENDS LIST-!-!-!-*/
 .friends-container {
     display: flex;
-    flex: auto;
     position: absolute;
-    top: 200px;
+    top: 120px;
+    right: 290px;
+    height: 480px;
+    width: 880px;
+    flex-direction: column;
+    overflow: auto;
+    background-color: var(--gray-white);
+  }
+
+/*-!-!-!-PEOPLE YOU MAY KNOW-!-!-!-*/
+.pymk-container {
+    display: flex;
+    position: absolute;
+    top: 650px;
     right: 290px;
     height: 480px;
     width: 880px;
@@ -139,19 +151,6 @@
     font-weight: bold;
     font-size: 23px;
 }
-
-/*-!-!-!-PEOPLE YOU MAY KNOW-!-!-!-*/
-.pymk-container {
-    display: flex;
-    position: absolute;
-    top: 720px;
-    right: 290px;
-    height: 480px;
-    width: 880px;
-    flex-direction: column;
-    overflow: auto;
-    background-color: var(--gray-white);
-  }
 
   /*--------NIKKI--------*/
   .picture-nikki {
