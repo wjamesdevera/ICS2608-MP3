@@ -261,7 +261,7 @@ main > * {
   border: 5px solid white;
 }
 
-.username {
+.post-card > .username {
   font-size: 1.5rem;
   line-height: 1.75rem;
   font-weight: 700;
