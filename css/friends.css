@@ -1,35 +1,15 @@
-
-
-/* Style to create a flex container that centers its items both horizontally and vertically */
-.centered-flexbox {
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center;    /* Center children horizontally */
-    justify-content: center;/* Center children vertically */
-    height: 100vh;          /* Take full viewport height */
-    width: 100vw;           /* Take full viewport width */
-    gap: 15px;              /* Space between each child item */
+.friends-container {
+  display: flex;
+  position: absolute;
+  top: 200px;
+  right: 400px;
+  height: 500px;
+  width: 780px;
+  flex-direction: column;
+  overflow: auto;
+  background-color: var(--light-gray);
 }
 
-.search-bar {
-    padding: 5px;
-    font-size: 16px;
-    width: 200px;           /* Adjust as necessary */
-    border-radius: 10px;
-}
-
-.image {
-    width: 100px;           /* Adjust as necessary */
-    height: 100px;          /* Adjust as necessary */
-}
-
-.btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    background-color: #3498db;
-    color: white;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+.friends-pic {
+    
 }
