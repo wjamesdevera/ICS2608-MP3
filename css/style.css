@@ -170,7 +170,7 @@ main > * {
   flex-direction: column;
   align-items: center;
   max-width: 15%;
-  height: 100vh;
+  height: 190vh;
   padding-top: 1rem;
   overflow: auto;
   background-color: var(--white);
@@ -212,4 +212,76 @@ main > * {
 
 .main-feed {
   min-width: 50%;
+}
+
+.cover-photo {
+  width: 100%;
+  overflow: hidden;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-photo img {
+  width: 100%;
+  height: auto;
+}
+
+.profile-info {
+  padding: 1.25rem 5rem;
+  border-bottom: 2px solid var(--light-gray);
+}
+
+.profile-info-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: -8%;
+  margin-bottom: 1rem;
+}
+
+.profile-info-section button {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 1.5rem;
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.profile-info-section button:hover {
+  border: 2px solid var(--orange);
+  color: var(--orange);
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 10%;
+  border: 5px solid white;
+}
+
+.post-card > .username {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+.info-tags {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  margin: 0.5rem 0;
+}
+
+.info-tags > * {
+  margin-right: 0.5rem;
+}
+
+.followers {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 700;
 }
