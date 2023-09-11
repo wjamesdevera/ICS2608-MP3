@@ -1,12 +1,7 @@
 /* upload */
 .title {
-    /* position: absolute;
-    top: 120px;
-    left: 280px; */
     font-weight: 900;
     font-size:2rem;
-    /* width: 624px;
-    height: 102px; */
 }
 
 .main-feed {
@@ -15,17 +10,26 @@
     align-items: center;
 }
 
-.captionfield {
-    width: 100%; 
-    height: 170px;
+.caption-form {
     border: 3px solid #E1E1E1;
+    width: 100%; 
+    height: 177px;
     border-radius: 22px;
+    overflow: hidden;
+}
+
+.caption-form > input[type='text'] {
     stroke: #E1E1E1;
     fill: none;
-    font-size: 16px;
     text-align: left; 
     padding-left: 10px;
     box-sizing: border-box;
+    font-size: 16px;
+    border: none;
+    height: auto;
+    width: 100%;
+    outline: 0;
+    resize: vertical;
 }
 
 .uploadbox {
