@@ -1,7 +1,9 @@
 <!--upload part-->
 .title {
-    
-    font-weight: 200;
+    position: absolute;
+    top: 160px;
+    left: 280px;
+    font-weight: 700;
     width: 624px;
     height: 102px;
     margin-top: 246px;
@@ -83,4 +85,20 @@ stroke-width:4;
     border-radius: 15px;
     padding: 20px 300px; 
     fill: #ffffff; 
+}
+
+.nofile{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 770px;
+    left: 1050px;
+}
+
+
+.break {
+    width: 1100px; /* Set the width to 1340px */
+    position: absolute;
+    top: 850px;
+    left: 280px;
+    border: 2px solid  #E1E1E1; 
 }
