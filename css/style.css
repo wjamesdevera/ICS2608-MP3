@@ -170,7 +170,11 @@ main > * {
   flex-direction: column;
   align-items: center;
   max-width: 15%;
+<<<<<<< HEAD
   height: 100vh;
+=======
+  height: 170vh;
+>>>>>>> a1c046ea79d949fcab69dbfaa245675ea302780d
   padding-top: 1rem;
   overflow: auto;
   background-color: var(--white);
