@@ -1,201 +1,88 @@
-
 /*-!-!-!-FOR BOTH BOX CONTENTS-!-!-!-*/
 .friends-header {
-  position: absolute;
-  top: 40px;
-  left: 50px;
   flex-direction: column;
   font-family: var(--font);
   font-weight: bold;
   font-size: 35px;
 }
 
-.friends-search{
-    position: absolute;
-    top: 90px;
-    left: 50px;
-    width: 760px;
-    height: 40px;
-    padding: 10px;
-    border-radius: 10px;
-    align-items: center;
-    gap: 5px;
+.friends-search {
+  width: 760px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  gap: 5px;
 }
 
-.visit-but1 {
-    position: absolute;      
-    top: 200px;
-    left: 155px;
-    height: 30px;
-    width: 90px;
-    border-radius: 20px;
-    background-color: white;
+.visit-but {
+  height: 30px;
+  width: 90px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid var(--light-gray);
+  color: var(--light-gray);
 }
 
-.visit-but1:hover {
-    background-color: var(--orange);
+.friend-box-container {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.visit-but2 {
-    position: absolute;
-    top: 320px;
-    left: 155px;
-    height: 30px;
-    width: 90px;
-    border-radius: 20px;
-    background-color: white;
+.friend-box {
+  display: flex;
+  gap: 1rem;
 }
 
-.visit-but2:hover {
-    background-color: var(--orange);
+.visit-but:hover {
+  background-color: var(--orange);
+  color: white;
 }
 
-.adfr-but1 {
-    position: absolute;      
-    top: 200px;
-    left: 250px;
-    height: 30px;
-    width: 90px;
-    border-radius: 20px;
-    background-color: white;
+.adfr-but {
+  height: 30px;
+  width: 90px;
+  border-radius: 20px;
+  color: var(--gray-white);
+  background-color: var(--orange);
+  border: none;
 }
 
-.adfr-but1:hover {
-    background-color: var(--orange);
+.adfr-but:hover {
+  background-color: var(--white);
+  color: var(--orange);
 }
 
-.adfr-but2 {
-    position: absolute;      
-    top: 320px;
-    left: 250px;
-    height: 30px;
-    width: 90px;
-    border-radius: 20px;
-    background-color: white;
-}
-
-.adfr-but2:hover {
-    background-color: var(--orange);
+.main-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*-!-!-!-YOUR FRIENDS LIST-!-!-!-*/
 .friends-container {
-    display: flex;
-    position: absolute;
-    top: 120px;
-    right: 290px;
-    height: 480px;
-    width: 880px;
-    flex-direction: column;
-    overflow: auto;
-    background-color: var(--gray-white);
-  }
-
-/*-!-!-!-PEOPLE YOU MAY KNOW-!-!-!-*/
-.pymk-container {
-    display: flex;
-    position: absolute;
-    top: 650px;
-    right: 290px;
-    height: 480px;
-    width: 880px;
-    flex-direction: column;
-    overflow: auto;
-    background-color: var(--gray-white);
-  }
-
-/*--------HECTOR--------*/
-.picture-hector {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    top: 120px;
-    left: 55px;
-    margin-top: 2rem;
-    row-gap: 20;
-    border-radius: 50%;
-    object-fit: cover;
-    height: 90px;
-    width: 90px;
+  display: flex;
+  width: 880px;
+  padding: 1.5rem 2rem;
+  border-radius: 0.75rem;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--gray-white);
+  margin: 2rem 0;
 }
 
-.name-hector {
-    position: absolute;
-    top: 170px;
-    left: 155px;
-    font-family: var(--font);
-    font-weight: bold;
-    font-size: 23px;
+.circle-image {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
 }
 
-/*--------MHAI--------*/
-.picture-mhai {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    top: 120px;
-    left: 55px;
-    margin-top: 2rem;
-    row-gap: 20;
-    border-radius: 50%;
-    object-fit: cover;
-    height: 90px;
-    width: 90px;
-}
-
-.name-mhai {
-    position: absolute;
-    top: 290px;
-    left: 155px;
-    font-family: var(--font);
-    font-weight: bold;
-    font-size: 23px;
-}
-
-  /*--------NIKKI--------*/
-  .picture-nikki {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    top: 120px;
-    left: 55px;
-    margin-top: 2rem;
-    row-gap: 20;
-    border-radius: 50%;
-    object-fit: cover;
-    height: 90px;
-    width: 90px;
-}
-
-.name-nikki {
-    position: absolute;
-    top: 170px;
-    left: 155px;
-    font-family: var(--font);
-    font-weight: bold;
-    font-size: 23px;
-}
-
-  /*--------YSABELLE--------*/
-  .picture-ysabel {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    top: 120px;
-    left: 55px;
-    margin-top: 2rem;
-    row-gap: 20;
-    border-radius: 50%;
-    object-fit: cover;
-    height: 90px;
-    width: 90px;
-}
-
-.name-ysabel {
-    position: absolute;
-    top: 290px;
-    left: 155px;
-    font-family: var(--font);
-    font-weight: bold;
-    font-size: 23px;
+.name {
+  font-family: var(--font);
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: .5rem;
 }
