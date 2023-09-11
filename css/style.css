@@ -233,7 +233,7 @@ main > * {
   border-bottom: 2px solid var(--light-gray);
 }
 
-.profile-section {
+.profile-info-section {
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -241,7 +241,7 @@ main > * {
   margin-bottom: 1rem;
 }
 
-.profile-section button {
+.profile-info-section button {
   cursor: pointer;
   border: 2px solid black;
   border-radius: 1.5rem;
@@ -250,7 +250,7 @@ main > * {
   line-height: 1.25rem;
 }
 
-.profile-section button:hover {
+.profile-info-section button:hover {
   border: 2px solid var(--orange);
   color: var(--orange);
 }
