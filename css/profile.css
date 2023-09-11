@@ -17,3 +17,68 @@
   margin-left: 500px;
   font-weight: bold;
 }
+
+.news-feed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+.profile-section {
+  width: 3%;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 3rem;
+}
+
+.post {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem 1.5rem;
+}
+
+.post-form {
+  margin: 0;
+  flex: 1;
+}
+
+.post-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.post-actions button {
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  font-family: var(--font);
+}
+
+.edit-btn {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.edit-btn:hover {
+  background-color: var(--white);
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+
+.delete-btn {
+  background-color: var(--light-dark-gray);
+  color: var(--white);
+}
+
+.delete-btn:hover {
+  background-color: var(--white);
+  border: 1px solid var(--light-dark-gray);
+  color: var(--light-dark-gray);
+}

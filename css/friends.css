@@ -1,15 +1,5 @@
-.friends-container {
-  display: flex;
-  position: absolute;
-  top: 200px;
-  right: 400px;
-  height: 500px;
-  width: 780px;
-  flex-direction: column;
-  overflow: auto;
-  background-color: var(--gray-white);
-}
 
+/*-!-!-!-BOTH BOX CONTENTS-!-!-!-*/
 .friends-header {
   position: absolute;
   top: 40px;
@@ -24,7 +14,7 @@
     position: absolute;
     top: 90px;
     left: 50px;
-    width: 650px;
+    width: 760px;
     height: 40px;
     padding: 10px;
     border-radius: 10px;
@@ -32,23 +22,110 @@
     gap: 5px;
 }
 
-.friends-pic {
+/*-!-!-!-YOUR FRIENDS LIST-!-!-!-*/
+.friends-container {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    right: 290px;
+    height: 480px;
+    width: 880px;
+    flex-direction: column;
+    overflow: auto;
+    background-color: var(--gray-white);
+  }
+
+/*--------HECTOR--------*/
+.picture-hector {
     display: flex;
     position: relative;
-    top: 135px;
+    flex-direction: row;
+    top: 120px;
     left: 55px;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    row-gap: 20;
     border-radius: 50%;
     object-fit: cover;
     height: 90px;
     width: 90px;
 }
 
-.friends-name {
-    display: flex;
+.name-hector {
     position: absolute;
-    
+    top: 170px;
+    left: 155px;
     font-family: var(--font);
     font-weight: bold;
-    font-size: 30;
+    font-size: 23px;
 }
+
+.visit-hector {
+    position: absolute;      
+    top: 200px;
+    left: 155px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.visit-hector:hover {
+    background-color: var(--orange);
+}
+
+/*--------MHAI--------*/
+.picture-mhai {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    top: 120px;
+    left: 55px;
+    margin-top: 2rem;
+    row-gap: 20;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 90px;
+    width: 90px;
+}
+
+.name-mhai {
+    position: absolute;
+    top: 290px;
+    left: 155px;
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.visit-mhai {
+    position: absolute;
+    top: 320px;
+    left: 155px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.visit-mhai:hover {
+    background-color: var(--orange);
+}
+
+
+/*-!-!-!-PEOPLE YOU MAY KNOW-!-!-!-*/
+.pymk-container {
+    display: flex;
+    position: absolute;
+    top: 720px;
+    right: 290px;
+    height: 480px;
+    width: 880px;
+    flex-direction: column;
+    overflow: auto;
+    background-color: var(--gray-white);
+  }
+
+  /*--------NIKKI--------*/
+
+
+  /*--------YSABELLE--------*/

@@ -20,11 +20,11 @@
 
         <!-- TODO:add navbar links -->
         <ul class="nav-links">
-          <li class="nav-active"><a href="../index.html">HOME</a></li>
+          <li><a href="../index.html">HOME</a></li>
           <li><a href="../pages/profile.html">PROFILE</a></li>
           <li><a href="../pages/about.html">ABOUT</a></li>
           <li><a href="../pages/media.html">MEDIA</a></li>
-          <li><a href="../pages/friends.html">FRIENDS</a></li>
+          <li class="nav-active"><a href="../pages/friends.html">FRIENDS</a></li>
         </ul>
       </div>
       <div class="news-feed"></div>
@@ -41,20 +41,29 @@
             placeholder="Search your Friends"
             class="friends-search"
           />
-          <img src="../assets/hector.png" class="friends-pic">
-          <img src="../assets/mhai.png" class="friends-pic">
-          <h2 class="friends-name">Hector Santiago</h2>
-          <h2 class="friends-name">Mhai Bringuelo</h2>
+            <h2 class="name-hector">Hector Santiago</h2>
+            <h2 class="name-mhai">Mhai Bringuelo</h2>
+          <img src="../assets/hector.png" class="picture-hector" />
+          <img src="../assets/mhai.png" class="picture-mhai" />
           <a href="">
-            <img src="../assets/VisitButton.png" alt="">
-            <img src="../assets/VisitButton.png" alt="">
+            <button class="visit-hector">Visit Profile</button>
+            <button class="visit-mhai">Visit Profile</button>
           </a>
         </div>
       </div>
-      <div>
-      </div>
+      <div></div>
 
       <!--TODO: Add friend recom list-->
+      <div class="pymk-container">
+        <h3 class="friends-header">People You May Know</h3>
+        <div>
+          <input
+            type="search"
+            placeholder="Search for Friends"
+            class="friends-search"
+          />
+        </div>
+      </div>
     </main>
   </body>
 </html>
