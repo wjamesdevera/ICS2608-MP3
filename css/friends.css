@@ -1,5 +1,5 @@
 
-/*-!-!-!-BOTH BOX CONTENTS-!-!-!-*/
+/*-!-!-!-FOR BOTH BOX CONTENTS-!-!-!-*/
 .friends-header {
   position: absolute;
   top: 40px;
@@ -22,9 +22,66 @@
     gap: 5px;
 }
 
+.visit-but1 {
+    position: absolute;      
+    top: 200px;
+    left: 155px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.visit-but1:hover {
+    background-color: var(--orange);
+}
+
+.visit-but2 {
+    position: absolute;
+    top: 320px;
+    left: 155px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.visit-but2:hover {
+    background-color: var(--orange);
+}
+
+.adfr-but1 {
+    position: absolute;      
+    top: 200px;
+    left: 250px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.adfr-but1:hover {
+    background-color: var(--orange);
+}
+
+.adfr-but2 {
+    position: absolute;      
+    top: 320px;
+    left: 250px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.adfr-but2:hover {
+    background-color: var(--orange);
+}
+
 /*-!-!-!-YOUR FRIENDS LIST-!-!-!-*/
 .friends-container {
     display: flex;
+    flex: auto;
     position: absolute;
     top: 200px;
     right: 290px;
@@ -59,20 +116,6 @@
     font-size: 23px;
 }
 
-.visit-hector {
-    position: absolute;      
-    top: 200px;
-    left: 155px;
-    height: 30px;
-    width: 90px;
-    border-radius: 20px;
-    background-color: white;
-}
-
-.visit-hector:hover {
-    background-color: var(--orange);
-}
-
 /*--------MHAI--------*/
 .picture-mhai {
     display: flex;
@@ -97,21 +140,6 @@
     font-size: 23px;
 }
 
-.visit-mhai {
-    position: absolute;
-    top: 320px;
-    left: 155px;
-    height: 30px;
-    width: 90px;
-    border-radius: 20px;
-    background-color: white;
-}
-
-.visit-mhai:hover {
-    background-color: var(--orange);
-}
-
-
 /*-!-!-!-PEOPLE YOU MAY KNOW-!-!-!-*/
 .pymk-container {
     display: flex;
@@ -126,6 +154,49 @@
   }
 
   /*--------NIKKI--------*/
+  .picture-nikki {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    top: 120px;
+    left: 55px;
+    margin-top: 2rem;
+    row-gap: 20;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 90px;
+    width: 90px;
+}
 
+.name-nikki {
+    position: absolute;
+    top: 170px;
+    left: 155px;
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 23px;
+}
 
   /*--------YSABELLE--------*/
+  .picture-ysabel {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    top: 120px;
+    left: 55px;
+    margin-top: 2rem;
+    row-gap: 20;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 90px;
+    width: 90px;
+}
+
+.name-ysabel {
+    position: absolute;
+    top: 290px;
+    left: 155px;
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 23px;
+}
