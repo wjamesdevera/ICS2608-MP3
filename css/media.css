@@ -1,35 +1,35 @@
-<!--upload part-->
+/* upload */
 .title {
     position: absolute;
-    top: 160px;
+    top: 120px;
     left: 280px;
-    font-weight: 700;
+    font-weight: 900;
+    font-size:2rem;
     width: 624px;
     height: 102px;
-    margin-top: 246px;
-    margin-left: 402px;
 }
 
 .captionbox {
     position: absolute;
-top: 160px;
-left: 280px;
-fill: none; 
-border-radius: 32px;
-stroke:#E1E1E1;
-stroke-width:4;
+    top: 160px;
+    left: 280px;
+    fill: none; 
+    border-radius: 22px;
+    border: 2px solid #E1E1E1;
+    stroke-width:4;
 }
 
 .uploadbox {
     position: absolute;
+    width: 1100px; 
+    height: 350px;
     top: 370px;
     left: 280px;
-    border-radius: 32px;
+    border: 4px dotted #E1E1E1;
+    border-radius: 22px;
     stroke: #E1E1E1;
     stroke-width: 4;
     fill: none;
-    stroke-dasharray: 4;
-    stroke-dashoffset: 0;
 }
 
 .uploadicon{
@@ -94,11 +94,23 @@ stroke-width:4;
     left: 1050px;
 }
 
-
 .break {
-    width: 1100px; /* Set the width to 1340px */
+    width: 1100px; 
     position: absolute;
     top: 850px;
     left: 280px;
     border: 2px solid  #E1E1E1; 
+}
+
+
+/* user uploads */
+
+.user_up {
+    position: absolute;
+    top: 920px;
+    left: 280px;
+    font-weight: 900;
+    font-size:2rem;
+    width: 624px;
+    height: 102px;
 }

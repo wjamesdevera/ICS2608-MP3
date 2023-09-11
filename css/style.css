@@ -136,7 +136,8 @@ a {
 :root {
   --orange: #ff9519;
   --white: #ffffff;
-  --light-gray: #a3a3a3;
+  --light-gray: #bdbdbd;
+  --gray-white: #ededed;
   --light-dark-gray: #737373;
   --dirty-white: #f5f5f5;
   --black: #000000;
